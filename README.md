@@ -1,4 +1,3 @@
 # emax_laptop
-emax_laptop
 
-for back up
+노트북 자료 백업용도 파일 관리
