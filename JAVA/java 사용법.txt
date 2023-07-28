@@ -1,0 +1,65 @@
+[Java Install]
+
+C:\Users\Your Name>java -version
+
+Setup for Windows
+To install Java on Windows:
+
+    1. Go to "System Properties" (Can be found on Control Panel > System and Security > System > Advanced System Settings)
+    2. Click on the "Environment variables" button under the "Advanced" tab
+    3. Then, select the "Path" variable in System variables and click on the "Edit" button
+    4. Click on the "New" button and add the path where Java is installed, followed by \bin. By default, Java is installed in C:\Program Files\Java\jdk-11.0.1 (If nothing else was specified when you installed it). In that case, You will have to add a new path with: C:\Program Files\Java\jdk-11.0.1\bin
+    Then, click "OK", and save the settings
+    5. At last, open Command Prompt (cmd.exe) and type java -version to see if Java is running on your machine
+
+
+--class
+    Every line of code that runs in Java must be inside a class. In our example, we named the class Main. A class should always start with an uppercase first letter.
+    Note: Java is case-sensitive: "MyClass" and "myclass" has different meaning.
+    The name of the java file must match the class name.
+
+--class name which must match the filename
+    For now, just remember that every Java program has a class name which must match the filename, and that every program must contain the main() method.
+
+--semicolon
+    Note: The curly braces {} marks the beginning and the end of a block of code.
+    You should also note that each code statement must end with a semicolon (;).
+
+--variables
+    Note: It is recommended to use descriptive names in order to create understandable and maintainable code:
+    The general rules for naming variables are:
+
+    Names can contain letters, digits, underscores, and dollar signs
+    Names must begin with a letter
+    Names should start with a lowercase letter and it cannot contain whitespace
+    Names can also begin with $ and _ (but we will not use it in this tutorial)
+    Names are case sensitive ("myVar" and "myvar" are different variables)
+    Reserved words (like Java keywords, such as int or boolean) cannot be used as names
+
+int랑 double이 가장 많이 사용됨
+
+--Java Logical Operators
+    && 	Logical and	Returns true if both statements are true	x < 5 &&  x < 10	
+    || 	Logical or	Returns true if one of the statements is true	x < 5 || x < 4	
+    !	Logical not	Reverse the result, returns false if the result is true	!(x < 5 && x < 10)
+
+--Methods 
+    Methods = Functions 같은 말임 
+    콜하면 작동함. 파라미터 가능 
+    왜쓰냐? 한번 만들어서 여러번 쓸수 잇음.
+    매소드는 클래스안에 선언해야함.
+
+    static void 함수명(){
+        // static은 매서드가 Main 클래스에 종속되어 있다는 것이고,, Main 클래스의 object가 아니라는 뜻. 
+        // void는 리턴 값이 없다는 뜻.
+    }
+
+--Parameters and Arguments
+    When a parameter is passed to the method, it is called an argument. So, from the example above: fname is a parameter, while Liam, Jenny and Anja are arguments.
+    Note that when you are working with multiple parameters, the method call must have the same number of arguments as there are parameters, and the arguments must be passed in the same order.
+
+-- Return Values 
+    void 대신 data type을 적어라. 그리고 return을 써라. 
+
+Java - What is OOP?
+
