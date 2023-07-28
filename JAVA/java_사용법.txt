@@ -96,3 +96,45 @@ int랑 double이 가장 많이 사용됨
 
 --Static vs. Public
     we created a static method, which means that it can be accessed without creating an object of the class, unlike public, which can only be accessed by objects:
+
+-- Java Constructors
+    A constructor in Java is a special method that is used to initialize objects. The constructor is called when an object of a class is created. It can be used to set initial values for object attributes:
+    Note that the constructor name must match the class name, and it cannot have a return type (like void).
+    Also note that the constructor is called when the object is created.
+    All classes have constructors by default: if you do not create a class constructor yourself, Java creates one for you. However, then you are not able to set initial values for object attributes.
+
+-- Java Modifiers (eg. public class Main)
+    The public keyword is an access modifier, meaning that it is used to set the access level for classes, attributes, methods and constructors.
+
+    We divide modifiers into two groups:
+
+    Access Modifiers - controls the access level
+    Non-Access Modifiers - do not control access level, but provides other functionality
+
+    Access Modifiers
+    For classes, you can use either public or default:
+
+    Non-Access Modifiers
+    For classes, you can use either final or abstract:
+
+-- Java Encapsulation
+
+    Encapsulation
+    The meaning of Encapsulation, is to make sure that "sensitive" data is hidden from users. To achieve this, you must:
+
+    - declare class variables/attributes as private
+    - provide public get and set methods to access and update the value of a private variable
+
+    < Why Encapsulation? >
+    - Better control of class attributes and methods
+    - Class attributes can be made read-only (if you only use the get method), or write-only (if you only use the set method)
+    - Flexible: the programmer can change one part of the code without affecting other parts
+    - Increased security of data
+
+--Java Packages
+
+    Java Packages & API
+    A package in Java is used to group related classes. Think of it as a folder in a file directory. We use packages to avoid name conflicts, and to write a better maintainable code. Packages are divided into two categories:
+
+    - Built-in Packages (packages from the Java API)
+    - User-defined Packages (create your own packages)
