@@ -1,10 +1,8 @@
-import java.time.LocalDate;
 import java.time.LocalTime;
-import java.time.ZoneId;
 
-public class Main {
+public class W3S_Main {
     public static void main(String[] args){
-        System.out.println("Hello Jake");
+        System.out.println("Hello Jake, This is W3S_Main.");
 
 
          // 현재 시간 구하기 
@@ -108,5 +106,4 @@ public class Main {
 
         //Java - What is OOP?
     }
-    
 }
